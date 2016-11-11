@@ -1,0 +1,4 @@
+input.labelstyle {
+    border: none;
+    background: none;
+}
