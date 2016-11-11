@@ -1,0 +1,7 @@
+/* DIV領域を非表示する設定(display="none"と同様の効果) */
+.div-hidden {
+    visibility:hidden;
+    position:fixed;
+    width: 0px;
+    height: 0px;
+}
