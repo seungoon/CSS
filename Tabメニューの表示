@@ -1,0 +1,171 @@
+/* Tabメニューの種類１に適用するスタイル */
+ul.common_type1_tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: 5px 0px 0px 0px;
+    border-bottom: 1px solid black;
+}
+
+/* Tabメニューに適用するスタイル */
+ul.common_type1_tab li {
+    float: left;
+    display: inline;
+    margin: 0px 0px 0px -10px;
+}
+
+ /* Tabメニューに適用するスタイル */
+ul.common_type1_tab li:first-child {
+    float: left;
+    display: inline;
+    margin: 0px 0px 0px 0px;
+}
+
+/* Tabメニューに適用するスタイル */
+ul.common_type1_tab li div {
+    cursor: pointer;
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    padding: 5px 5px 5px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    border: 1px solid #ccc;
+    border-radius: 100px 20px 0px 0px;
+    width: auto;
+    height: 30px;
+    border-bottom: none;
+}
+
+/* Tabメニューに適用するスタイル */
+ul.common_type1_tab li div:focus , .active {
+    background-color: #FFB6C1;
+    position: relative;
+    z-index: 1;
+}
+
+.common_type1_tab_active {
+    background-color: #FFB6C1;
+    position: relative;
+    z-index: 1;
+}
+
+/* Tabメニューに適用するスタイル */
+.common_type1_tabcontent {
+    margin: 0;
+    display: none;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+    border-top: none;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px 0px 0px 0px;
+}
+
+a.common_type1_menuclose {
+        float:center;
+        cursor:pointer;
+        border: 0px solid #AEAEAE;
+        font-size: 15px;
+        font-weight: bold;
+        display: inline-block;
+        line-height: 5px;
+        padding: 2px 2px;
+        -moz-border-radius:20px 20px 0px 0px;
+        -webkit-border-top-left-radius: 20px;
+        -webkit-border-top-right-radius: 20px;
+        -khtml-border-top-left-radius: 20px;
+        -khtml-border-top-right-radius: 20px;
+    }
+
+    .common_type1_menuclose:after {
+        content: "x";
+        padding: 0px 5px;
+    }
+
+
+ /* Tabメニューの種類２に適用するスタイル */
+ul.common_type2_tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: 5px 0px 0px 0px;
+    border-bottom: 1px solid black;
+}
+
+/* Tabメニューに適用するスタイル */
+ul.common_type2_tab li {
+    float: left;
+    display: inline;
+    margin: 0px 0px 0px 0px;
+}
+
+/* Tabメニューに適用するスタイル */
+ul.common_type2_tab li div {
+    cursor: pointer;
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 0px 0px;
+    width: auto;
+    height: 30px;
+    border-bottom: none;
+}
+
+/* Tabメニューに適用するスタイル */
+ul.common_type2_tab li div:focus , .active {
+    background-color: #FFB6C1;
+    position: relative;
+    z-index: 1;
+}
+
+.common_type2_tab_active {
+    background-color: #FFB6C1;
+    position: relative;
+    z-index: 1;
+}
+
+/* Tabメニューに適用するスタイル */
+.common_type2_tabcontent {
+    margin: 0;
+    display: none;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+    border-top: none;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px 0px 0px 0px;
+}
+
+a.common_type2_menuclose {
+        float:center;
+        cursor:pointer;
+        border: 0px solid #AEAEAE;
+        font-size: 15px;
+        font-weight: bold;
+        display: inline-block;
+        line-height: 5px;
+        padding: 2px 2px;
+        -moz-border-radius:20px 20px 0px 0px;
+        -webkit-border-top-left-radius: 20px;
+        -webkit-border-top-right-radius: 20px;
+        -khtml-border-top-left-radius: 20px;
+        -khtml-border-top-right-radius: 20px;
+    }
+
+    .common_type2_menuclose:after {
+        content: "X";
+        padding: 0px 5px;
+    }
