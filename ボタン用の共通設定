@@ -1,0 +1,38 @@
+/*ボタン共通CSS設定*/
+input[type="button"] {
+    width: 120px;
+}
+
+input[type="button"].type1 {
+    width: 50px;
+}
+
+input[type="button"].type2 {
+    width: 80px;
+} */
+
+/*入力項目共通CSS設定*/
+/* input[type=text]::-ms-clear {
+    display: none;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+input[type="text"].type1 {
+    background-color: #FFFF99;
+}
+
+input.align-center {
+    text-align: center;
+}
+
+input.align-right {
+    text-align: right;
+}
+
+textarea.type1 {
+    width: 100%;
+    background-color: #FFFF99;
+}
