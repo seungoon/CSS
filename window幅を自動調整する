@@ -1,0 +1,13 @@
+/* 表示領域が1366px以下の場合に適用するスタイル */
+@media screen and (max-width: 1366px) {
+    div .MAIN {
+        width: 1366px;
+    }
+}
+
+/* 表示領域が1366px超過の場合に適用するスタイル */
+@media screen and (min-width: 1367px) {
+    div .MAIN {
+        width: 100%;
+    }
+}
